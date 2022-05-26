@@ -1,0 +1,122 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.grid-container{
+display: grid;
+background: url(Fotos/dark-souls-3-5k-demon-dark-souls-iii.jpg);
+margin: 0;
+padding: 0;
+background-size: cover;
+background-position: center;
+grid-template-columns: 300px auto 300px;
+grid-template-rows: auto 811px 100px;
+grid-template-areas: 'header header header'
+'menu main aside' 
+'footer footer footer';
+
+}
+
+.grid-container div{
+color: white;
+border: 0px solid black;
+
+}
+
+.item1{
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    grid-area: header   ;
+    font-size: 4em;
+    text-shadow: 2px 2px 4px blue;
+    font-style: initial;    
+}
+
+.item2{ 
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+text-shadow: 2px 2px 4px steelblue;
+font-size: 2em;
+  grid-area: menu;
+  text-align: center;  
+}
+
+.item3{
+    font-size: 1.5em;
+    text-decoration: solid;
+    text-align: center;
+    -webkit-text-fill-color: black;
+  grid-area: main;  
+}
+
+.item4{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+text-shadow: 2px 2px 4px green;
+font-size: 2em;
+text-align: center;
+  grid-area: aside;  
+}
+
+.item5{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 1.5em;
+    background: url(Fotos/dark\ souls.jpg);
+    margin: 0;
+padding: 0;
+background-size: cover;
+background-position: center;
+  grid-area: footer;  
+}
+
+.Caballero{
+    display: flex;
+    margin-top: 50%;
+    margin-left: 17%;
+width: 200px;
+height: 200px;
+}
+
+.Vagabundo{
+    display: flex;
+    margin-top: 35%;
+    margin-left: 17%;
+width: 200px;
+height: 200px;
+}
+.Vagabundo-color{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+text-shadow: 2px 2px 4px mediumslateblue;
+font-size: 1em;
+}
+
+.Mago{
+    display: flex;
+    margin-top: 50%;
+    margin-left: 17%;
+width: 200px;
+height: 200px;
+}
+
+.Piromantico{
+    display: flex;
+    margin-top: 35%;
+    margin-left: 17%;
+width: 200px;
+height: 200px;
+}
+.Piro-color{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+text-shadow: 2px 2px 4px orangered;
+font-size: 1em;
+}
